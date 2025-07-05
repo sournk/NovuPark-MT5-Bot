@@ -6,6 +6,7 @@ The bot trades on the original closed strategy based on a combination of technic
 * Strategy by [Mr. Igor](https://t.me/Yudintut)
 * Version: 1.00
 
+![Layout](img/UM001.%20Layout.png)
 
 ## Что нового?
 ```
