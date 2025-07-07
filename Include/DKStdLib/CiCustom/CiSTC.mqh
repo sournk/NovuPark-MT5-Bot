@@ -9,7 +9,7 @@
 
 
 #define STC_INDICATOR_NAME "Schaff Trend Cycle"
-#define STC_INDICATOR_BUFFER_COUNT 3
+#define STC_INDICATOR_BUFFER_COUNT 2
 #define STC_INITIAL_BUFFER_SIZE 2048
 
 enum enPrices
@@ -56,7 +56,8 @@ public:
                             enPrices        _Price // Price
                             ); 
                             
-  virtual double     Main(int index) { return this.GetData(0, index); }
+  virtual double     Main(int index)  { return this.GetData(0, index); }
+  virtual double     Color(int index) { return this.GetData(1, index); }
 };
 //+------------------------------------------------------------------+
 //|                                                                  |
