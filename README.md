@@ -4,12 +4,13 @@ The bot trades on the original closed strategy based on a combination of technic
 
 * Coding by Denis Kislitsyn | denis@kislitsyn.me | [kislitsyn.me](https://kislitsyn.me/personal/algo)
 * Strategy by [Mr. Igor](https://t.me/Yudintut)
-* Version: 1.01
+* Version: 1.02
 
 ![Layout](img/UM001.%20Layout.png)
 
 ## Что нового?
 ```
+1.02: [*] Fixed error setting no TP
 1.01: [+] STC color filter 'F_STC_CLR_ENB' (GREEN for BUY & RED for SELL)
       [*] Fixed reversal open error
 1.00-DEV: First version
